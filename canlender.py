@@ -37,3 +37,6 @@ if __name__=='__main__':
     button.grid(row=4, column=1)
     exit.grid(row=6, column=1)
     new.mainloop()
+    print (R'\n') 
+else:
+    print ('The value of __name__ is ' + __name__)

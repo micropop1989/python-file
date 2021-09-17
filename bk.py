@@ -65,3 +65,14 @@ if __name__ == '__main__':
     b3 = tk.Button(root, text='Quit', command=root.quit)
     b3.pack(side=tk.LEFT, padx=5, pady=5)
     root.mainloop()
+'''''
+    lab.pack(side=tk.LEFT, padx=5, pady=5)
+    Here is the list of possible options −
+
+    expand − When set to true, widget expands to fill any space not otherwise used in widget's parent.
+
+    fill − Determines whether widget fills any extra space allocated to it by the packer, or keeps its own minimal dimensions: NONE (default), X (fill only horizontally), Y (fill only vertically), or BOTH (fill both horizontally and vertically).
+
+    side − Determines which side of the parent widget packs against: TOP (default), BOTTOM, LEFT, or RIGHT.
+'''''
+

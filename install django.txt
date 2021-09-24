@@ -1,0 +1,13 @@
+mkdir <project1>
+cd <project1>
+python3 -m venv env
+ls
+source env/bin/activate
+pip3 install django
+django-admin startproject <blogname>
+cd <blogname>
+ls
+python3 manage.py runserver
+
+
+python3 manage.py migrate
